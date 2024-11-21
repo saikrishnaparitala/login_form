@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New registration form</title>
+</head>
+
+<body>
+    <form action="login_form.html" method="get">
+        <fieldset>
+            <center>
+                <label><b>New registration form</b></label>
+                <br>
+                <br>
+                <label for="user_name"><i>Username :</i></label>
+                <input id="user_name" placeholder="username" required pattern="[a-zA-Z]+" minlength="3" maxlength="15"
+                    title="please enter valid details ">
+                <br>
+                <br>
+                <label for="password"><i>Password :</i></label>
+                <input id="password" placeholder="password" pattern="[A-Za-z\d!@#$%^&*]+" maxlength="16" minlength="4"
+                    title="please enter valid details ">
+                <br>
+                <br>
+                <label for="email"><i>Email :</i></label>
+                <input id="email" text="email" placeholder="Ex--abcdefg@gmail.com" pattern="[a-z\d]+@gamil.com"
+                    title="please enter valid details ">
+                <br>
+                <br>
+                <input type="submit" value="Submit" placeholder="login">
+            </center>
+            <br>
+            <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
